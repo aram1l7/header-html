@@ -1,0 +1,98 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  transition: 0.3s all ease-in-out;
+}
+body{
+  font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+.navbar{
+  background:#003580;
+  height: 117px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  padding-bottom:20px;
+}
+.nav-container{
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  z-index: 1;
+  width: 100%;
+  padding: 0 24px;
+  max-width: 1100px;
+}
+.logo{
+  color:#fff;
+  justify-self: flex-start;
+  cursor: pointer;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  margin-left: -35px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-top: -40px;
+}
+.logo span{
+  color:dodgerblue;
+}
+
+.nav-menu{
+  display: flex;
+  align-items: center;
+  list-style: none;
+  text-align: center;
+  margin-right: -40px;
+  margin-top: -32px;
+}
+.nav-item{
+  height: 80px;
+  padding: 15px;
+}
+.nav-item a{
+  color: #fff;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 0 1 rem;
+  height: 100%;
+  cursor: pointer;
+  font-weight:600;
+  font-size: 16px;
+}
+
+.flag{
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+}
+
+.bk-icon{
+  fill:white;
+}
+.nav-item button{
+  background: transparent;
+  border:1px solid white;
+  margin-top: 5px;
+  padding: 10px;
+}
+.nav-item button span{
+  color:#fff;
+  font-weight: 600;
+}
+.nav-item .register{
+  background: #fff;
+  margin-left: -17px;
+}
+
+.nav-item .register span{
+  color:#0071c2;
+  font-weight: 600;
+}
